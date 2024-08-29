@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard UI</title>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <div class="nav-left">
+                <ul>
+                    <li>Dashboard</li>
+                    <li>Files</li>
+                    <li>Tasks</li>
+                    <li>Communications</li>
+                    <li>People</li>
+                    <li>FAI</li>
+                </ul>
+            </div>
+            <div class="nav-right">
+                <ul>
+                    <li><img src="timer.png" alt="Timer"></li>
+                    <li><img src="bell.png" alt="Notifications"></li>
+                    <li><img src="bookmark.png" alt="Bookmark"></li>
+                    <li><img src="search.png" alt="Search"></li>
+                    <li><img src="more.png" alt="More"></li>
+                    <li><img src="pfp.png" alt="Profile"></li>
+                </ul>
+            </div>
+        </nav>
+
+        <header class="dashboard-header">
+            <h2>Dashboard</h2>
+            <div class="header-icons">
+                <div class="header-icon-item">
+                    <img src="add.png" alt="Add to Dashboard">
+                    <span>Add to Dashboard</span>
+                </div>
+                <div class="header-icon-item">
+                    <img src="settings.png" alt="Settings">
+                    <span>Settings</span>
+                </div>
+                <div class="header-icon-item">
+                    <img src="help.png" alt="Help">
+                    <span>Help</span>
+                </div>
+            </div>
+        </header>
+
+        <div class="content">
+            <div class="row">
+                <div class="card weather">
+                    <p class="card-heading-with-dot">Good Morning Abubakar!</p>
+                    <p class="card-body">Rainy Day</p>
+                    <p class="card-degree-body">28°C</p>
+                    <p class="card-footer">Abuja, Nigeria</p>
+                </div>                
+                <div class="card time">
+                    <p class="card-heading">Time</p>
+                    <p class="yellow">09:15 AM</p>
+                    <button class="clock-in-button">Clock In</button>
+                </div>
+                <div class="card total-requests">
+                    <p class="card-heading">Total Requests</p>
+                    <p class="card-big-body">10,000</p>
+                </div>
+                <div class="card total-reviews">
+                    <p class="card-heading">Total Reviews</p>
+                    <p class="card-big-body">40,000</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="card to-do-list">
+                    <p class="card-heading">to-do list</p>
+                    <p class="yellow">28th September</p>
+                
+                    <div class="todo-item checked">
+                        <img src="check (1).png" alt="Checked" />
+                        <label>Meeting with Designer</label>
+                    </div>
+                    <div class="todo-item1">
+                        <img src="checkbox.png" alt="Checkbox" />
+                        <label>Meeting with Designer</label>
+                    </div>
+                    <div class="todo-item2">
+                        <img src="checkbox.png" alt="Checkbox" />
+                        <label>Meeting with Designer</label>
+                    </div>
+                    <div class="todo-item3">
+                        <img src="checkbox.png" alt="Checkbox" />
+                        <label>Meeting with Designer</label>
+                    </div>
+                    <div class="input-event">Type Event Here</div>
+                    <div class="last-item">
+                        <img src="plus (1).png" alt="Add"/>
+                        <label>What do you want to remember?</label>
+                    </div>
+                </div>
+
+
+                
+                <div class="card recent-reviews">
+                 <p class="card-heading">All Recent Reviews</p>
+                 <div class="name-card">
+                    <p class="card-body">Title of Review</p>
+                    <p class="card-text">Created By:  <a class="inner-text">  John Okafor</a></p>
+                    <p class="card-text">App ID:  <a class="inner-text2">  0431</a></p>
+                    <p class="big-card-text">Joel Offordu <img src="dot.png" alt="dot" class="status-dot"><span class="review-status approved">Approved</span></p>
+                     </div>
+
+                    <div class="name-card">
+                        <p class="card-body">Title of Review</p>
+                        <p class="card-text">Created By:  <a class="inner-text">  John Okafor</a></p>
+                        <p class="card-text">App ID:  <a class="inner-text2">  0431</a></p>
+                        <p class="big-card-text">Joel Offordu  <img src="dot.png" alt="dot" class="status-dot"><span class="review-status in-progress">In Progress</span> </p>
+                        </div>
+
+                        <div class="name-card">
+                            <p class="card-body">Title of Review</p>
+                            <p class="card-text">Created By:  <a class="inner-text">  John Okafor</a></p>
+                            <p class="card-text">App ID:  <a class="inner-text2">  0431</a></p>
+                            <p class="big-card-text">Joel Offordu  <img src="dot.png" alt="dot" class="status-dot"> <span class="review-status declined">Declined</span></p> 
+                            </div>
+
+                    <button class="see-all-button">SEE ALL</button>
+                </div>
+
+                <div class="card recent-reviews">
+                    <p class="card-heading">Exception Reviews</p>
+                    <div class="name-card">
+                        <p class="card-body">Title of Review</p>
+                        <p class="card-text">Created By:  <a class="inner-text">  John Okafor</a></p>
+                        <p class="card-text">App ID:  <a class="inner-text2">  0431</a></p>
+                        <p class="big-card-text">Joel Offordu <img src="dot.png" alt="dot" class="status-dot"><span class="review-status approved">Approved</span></p>
+                         </div>
+    
+                        <div class="name-card">
+                            <p class="card-body">Title of Review</p>
+                            <p class="card-text">Created By:  <a class="inner-text">  John Okafor</a></p>
+                            <p class="card-text">App ID:  <a class="inner-text2">  0431</a></p>
+                            <p class="big-card-text">Joel Offordu  <img src="dot.png" alt="dot" class="status-dot"><span class="review-status in-progress">In Progress</span> </p>
+                            </div>
+    
+                            <div class="name-card">
+                                <p class="card-body">Title of Review</p>
+                                <p class="card-text">Created By:  <a class="inner-text">  John Okafor</a></p>
+                                <p class="card-text">App ID:  <a class="inner-text2">  0431</a></p>
+                                <p class="big-card-text">Joel Offordu  <img src="dot.png" alt="dot" class="status-dot"> <span class="review-status declined">Declined</span></p> 
+                                </div>
+    
+                    <button class="see-all-button">SEE ALL</button>
+                </div>
+
+                <div class="card recent-reviews">
+                    <p class="card-heading">General Reviews</p>
+                    <div class="name-card">
+                        <p class="card-body">Title of Review</p>
+                        <p class="card-text">Created By:  <a class="inner-text">  John Okafor</a></p>
+                        <p class="card-text">App ID:  <a class="inner-text2">  0431</a></p>
+                        <p class="big-card-text">Joel Offordu <img src="dot.png" alt="dot" class="status-dot"><span class="review-status approved">Approved</span></p>
+                         </div>
+    
+                        <div class="name-card">
+                            <p class="card-body">Title of Review</p>
+                            <p class="card-text">Created By:  <a class="inner-text">  John Okafor</a></p>
+                            <p class="card-text">App ID:  <a class="inner-text2">  0431</a></p>
+                            <p class="big-card-text">Joel Offordu  <img src="dot.png" alt="dot" class="status-dot"><span class="review-status in-progress">In Progress</span> </p>
+                            </div>
+    
+                            <div class="name-card">
+                                <p class="card-body">Title of Review</p>
+                                <p class="card-text">Created By:  <a class="inner-text">  John Okafor</a></p>
+                                <p class="card-text">App ID:  <a class="inner-text2">  0431</a></p>
+                                <p class="big-card-text">Joel Offordu  <img src="dot.png" alt="dot" class="status-dot"> <span class="review-status declined">Declined</span></p> 
+                                </div>
+    
+                    <button class="see-all-button">SEE ALL</button>
+                </div>
+                <div class="card double-height">
+                    <div class="half-card memo" onclick="window.location.href='sallah_homage.html';">
+                        <p class="card-heading" onclick="window.location.href='sallah_homage.html';">Memo</p>
+                        <p class="card-memo-body">TITLE OF THE MEMO</p>
+                        <p class="memo-text">A little description of the memo goes here</p>
+                    </div>
+               
+                    <div class="half-card messages">
+                        <p class="card-heading">Messages</p>
+                        <p class="card-body">Name of Sender</p>
+                        <button class="see-all-button">SEE ALL</button>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="row">
+                <div class="card calendar">
+                    <div class="calender-header">
+                    <p class="card-heading-yellow">February</p>
+                    <div class="calendar-legend">
+                        <div class="legend-item"><span class="active-day-box"></span> Active Day</div>
+                        <div class="legend-item"><span class="holiday-box"></span> Holiday</div>
+                    </div>
+                    </div>
+                    <table id="calendar">
+                        <tr>
+                            <td class="holiday">Sun<br>1</td>
+                            <td>Mon<br>2</td>
+                            <td>Tue<br>3</td>
+                            <td class="active-day">Wed<br>4</td>
+                            <td>Thu<br>5</td>
+                            <td>Fri<br>6</td>
+                            <td>Sat<br>7</td>
+                        </tr>
+                        <tr>
+                            <td>Sun<br>8</td>
+                            <td>Mon<br>9</td>
+                            <td>Tue<br>10</td>
+                            <td>Wed<br>11</td>
+                            <td>Thu<br>12</td>
+                            <td>Fri<br>13</td>
+                            <td class="holiday">Sat<br>14</td>
+                        </tr>
+                        <tr>
+                            <td>Sun<br>15</td>
+                            <td>Mon<br>16</td>
+                            <td>Tue<br>17</td>
+                            <td>Wed<br>18</td>
+                            <td>Thu<br>19</td>
+                            <td>Fri<br>20</td>
+                            <td>Sat<br>21</td>
+                        </tr>
+                        <tr>
+                            <td>Sun<br>22</td>
+                            <td>Mon<br>23</td>
+                            <td>Tue<br>24</td>
+                            <td>Wed<br>25</td>
+                            <td>Thu<br>26</td>
+                            <td>Fri<br>27</td>
+                            <td>Sat<br>28</td>
+                        </tr>
+                       
+                    </table>
+                   
+                </div>
+                
+                
+                <div class="card transactions">
+                    <p class="card-heading-X">Financial Transactions</p>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Date</th>
+                                <th>Description</th>
+                                <th>Amount</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>05/03/2023</td>
+                                <td>Description goes here</td>
+                                <td>NGN0.00</td>
+                                <td class="status-successful">Successful</td>
+                            </tr>
+                            <tr>
+                                <td>05/03/2023</td>
+                                <td>Description goes here</td>
+                                <td>NGN0.00</td>
+                                <td class="status-pending">Pending</td>
+                            </tr>
+                            <tr>
+                                <td>05/03/2023</td>
+                                <td>Description goes here</td>
+                                <td>NGN0.00</td>
+                                <td class="status-error">Error</td>
+                            </tr>
+                            <tr>
+                                <td>05/03/2023</td>
+                                <td>Description goes here</td>
+                                <td>NGN0.00</td>
+                                <td class="status-successful">Successful</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="card spot-check-review">
+                    <p class="card-heading-X">Spot Check Review</p>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Title</th>
+                                <th> By</th>
+                                <th>Date</th>
+                                <th>Owner</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td> Alpha</td>
+                                <td>Joel </td>
+                                <td>05/05/2023</td>
+                                <td>Company</td>
+                                <td class="status-successful">Approved</td>
+                          </tr>
+                          <tr>
+                            <td> Alpha</td>
+                            <td>Joel </td>
+                            <td>05/05/2023</td>
+                            <td>Company</td>
+                            <td class="status-successful">Approved</td>
+                      </tr>
+                      <tr>
+                        <td> Alpha</td>
+                        <td>Joel </td>
+                        <td>05/05/2023</td>
+                        <td>Company</td>
+                        <td class="status-successful">Approved</td>
+                  </tr>
+                  <tr>
+                    <td> Alpha</td>
+                    <td>Joel </td>
+                    <td>05/05/2023</td>
+                    <td>Company</td>
+                    <td class="status-successful">Approved</td>
+              </tr>
+                           
+                        </tbody>
+                    </table>
+                    
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="card chart">
+                    <p class="card-heading">Chart</p>
+                    <canvas id="myChart"></canvas>
+                </div>
+                <div class="card pending-requests">
+                    <p class="card-heading">Pending Requests</p>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Title</th>
+                                <th> By</th>
+                                <th>Date</th>
+                                <th>Owner</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td> Alpha</td>
+                                <td>Joel </td>
+                                <td>05/05/2023</td>
+                                <td>Company</td>
+                                <td class="status-successful">Approved</td>
+                          </tr>
+                          <tr>
+                            <td> Alpha</td>
+                            <td>Joel </td>
+                            <td>05/05/2023</td>
+                            <td>Company</td>
+                            <td class="status-successful">Approved</td>
+                      </tr>
+                      <tr>
+                        <td> Alpha</td>
+                        <td>Joel </td>
+                        <td>05/05/2023</td>
+                        <td>Company</td>
+                        <td class="status-pending">Pending</td>
+                  </tr>
+                  <tr>
+                    <td> Alpha</td>
+                    <td>Joel </td>
+                    <td>05/05/2023</td>
+                    <td>Company</td>
+                    <td class="status-successful">Approved</td>
+              </tr>
+              <tr>
+                <td> Alpha</td>
+                <td>Joel </td>
+                <td>05/05/2023</td>
+                <td>Company</td>
+                <td class="status-pending">Pending</td>
+          </tr>
+          <tr>
+            <td> Alpha</td>
+            <td>Joel </td>
+            <td>05/05/2023</td>
+            <td>Company</td>
+            <td class="status-declined">Declined</td>
+      </tr>
+      <tr>
+        <td> Alpha</td>
+        <td>Joel </td>
+        <td>05/05/2023</td>
+        <td>Company</td>
+        <td class="status-successful">Approved</td>
+  </tr>
+                          
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        const ctx = document.getElementById('myChart').getContext('2d');
+        const myChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
+                datasets: [{
+                    label: 'Percentage',
+                    data: [100, 90, 70, 96, 45, 55, 85, 84, 76, 98, 80, 60], 
+                    backgroundColor: '#159934', 
+                    borderColor: '#159934', 
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+
+</html>
